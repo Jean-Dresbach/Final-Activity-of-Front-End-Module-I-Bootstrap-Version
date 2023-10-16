@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container-fluid vh-100 d-flex flex-column flex-xl-row">
+        <header class="row bg-dark p-3">
+            <div class="col col-sm-2 col-xl-12 d-flex justify-content-center">
+                <img id="profile-pic" src="./images/profile-pic.png" alt="profile picture">
+            </div>
+
+            <div class="col d-flex d-sm-none align-items-center justify-content-end">
+                <div class="dropdown">
+                    <button id="menu-button" class="btn btn-secondary border-0 d-flex justify-content-center align-items-center dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark text-center" style="width: 100vw;">
+                        <li><a class="dropdown-item m-2" href="./index.html">About me</a></li>
+                        <li><a class="dropdown-item m-2" href="./my-knowledge.html">My knowledge</a></li>
+                        <li><a class="dropdown-item m-2 disabled" href="#">My goals</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="container-links" class="col d-none d-sm-flex flex-xl-column align-items-center justify-content-center gap-3">
+                <a class="mx-3" style="color: #c2c6cb;" href="./index.html">About me</a>
+                <a class="mx-3" style="color: #c2c6cb;" href="./my-knowledge.html">My knowledge</a>
+                <a class="disabled mx-3" href="#">My goals</a>
+            </div>
+        </header>
+
+        <main class="row align-content-center">
+            <div class="col">
+                <ul>
+                    <li class="fw-bolder fs-2">Personal goals</li>
+                    <span>Residing in a country where English is the official language.</span>
+                    <span class="fs-3">Achieving fluency in English.</span>
+                    <span class="fs-3">Acquiring proficiency in a new language.</span>
+                    <span class="fs-3">Securing a job opportunity at Growdev within 6 months of starting the course.</span>
+                    <li class="fw-bolder fs-2">Professional goals</li>
+                    <span class="fs-3">Employment with a multinational company.</span>
+                    <span class="fs-3">Advancing to the role of a senior full-stack programmer, specializing in front-end development.</span>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

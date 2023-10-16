@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    margin-top: 20px !important;
+    padding: 30px;
+}
+
+#profile-pic {
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #9e5b08;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#menu-button {
+    background-color: transparent !important;
+}
+
+#menu-button:focus, #menu-button:hover {
+    background-color: #9e5b08 !important;
+}
+
+li a {
+    padding: 10px;
+    font-size: 25px !important;
+}
+
+.disabled {
+    color: #9e5b08 !important;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+a svg {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+a:hover, a svg:hover {
+    transform: scale(1.2);
+}
+
+ul span {
+    display: block;
+    margin: 10px;
+}
+
+#container-links > a {
+    font-size: 16px !important;
+}
+
+@media (min-width: 768px) { 
+    h1 {
+        font-size: 50px;
+    }
+
+    #container-links > a {
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    #profile-pic {
+        width: 200px;
+        height: 200px;
+        align-self: flex-end;
+    }
+
+    #container-links {
+        justify-content: flex-start !important;
+        margin-top: 30px;
+    }
+
+    #container-links > a {
+        font-size: 30px !important;
+    }
+
+    main {
+        width: 100vw;
+        margin-top: 0 !important;
+        margin-left: 15px !important;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
